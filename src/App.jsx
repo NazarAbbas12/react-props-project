@@ -1,4 +1,4 @@
-import Card from "./components/Card-User"
+import Card from "./components/Card.jsx"
 
 function App() {
 
