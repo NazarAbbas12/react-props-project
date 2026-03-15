@@ -1,16 +1,37 @@
-# React + Vite
+# React Props Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simple React application created to practice the concept of **props**. It displays developer profile cards using data stored in an array of objects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Each card shows information about a developer such as their **name, pay rate, availability status, skills, and description**.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Display multiple developer cards using an array of objects
+* Passing data from parent component to child component using **props**
+* Conditional rendering for **availability status**
+* Rendering skill buttons dynamically using **map()**
+* Basic component structure in React
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* JSX
+* CSS
+
+## Learning Objectives
+
+This project helped in understanding:
+
+* How to pass data using **props**
+* How to render lists using **map()**
+* Conditional rendering in JSX
+* Component-based structure in React
+
+## Project Structure
+
+* **App.jsx** – Stores developer data and renders card components
+* **Card.jsx** – Displays developer information using props
+
