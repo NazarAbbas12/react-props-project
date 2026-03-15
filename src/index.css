@@ -17,7 +17,7 @@ body
   background-color: rgb(209, 207, 207);
   padding: 40px;
   display: flex;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap ;
   flex-direction: row;
   align-items: flex-start;
